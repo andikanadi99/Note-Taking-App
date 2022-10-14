@@ -1,0 +1,79 @@
+
+html{
+  background-color: black;
+}
+
+body{
+  text-align: center;
+}
+
+.Header{
+  font-size: large;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+
+.Add-header{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:gold;
+}
+
+.note p{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px; 
+  font-style: bold;
+  color: white;
+}
+
+.note p input{
+  width: 600px;
+  padding: 15px;
+  border-radius: 5px; 
+}
+
+.add-button{
+  margin-bottom: 10px;
+}
+
+.button{
+  background-color: gold;
+  border: none;
+  color: black;
+  padding: 15px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+#content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#content div {
+  border-radius: 15px;
+  background-color: white;
+  width: 150px;
+  height: 150px
+}
+.item-head{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.item{
+  text-align: left;
+  padding-left: 8px;
+}
+.detail{
+  background-color: DarkCyan;
+  border: none;
+  color: black;
+  padding: 5px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
